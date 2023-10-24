@@ -1,5 +1,89 @@
 # Changelog
 
+## [0.6.8](https://github.com/tillknuesting/flagd/compare/flagd-v0.6.7...flagd/v0.6.8) (2023-10-24)
+
+
+### 🐛 Bug Fixes
+
+* benchmark pipeline ([#538](https://github.com/tillknuesting/flagd/issues/538)) ([62cc0fc](https://github.com/tillknuesting/flagd/commit/62cc0fcfd6a63a6059352704117dbb78160eb689))
+* **deps:** update module github.com/cucumber/godog to v0.13.0 ([#855](https://github.com/tillknuesting/flagd/issues/855)) ([5b42486](https://github.com/tillknuesting/flagd/commit/5b4248654f7199afc50663e73609eeb20a3d11ec))
+* **deps:** update module github.com/open-feature/flagd/core to v0.4.5 ([#552](https://github.com/tillknuesting/flagd/issues/552)) ([41799f6](https://github.com/tillknuesting/flagd/commit/41799f624c261a84599cdd406cf28f4b33e49851))
+* **deps:** update module github.com/open-feature/flagd/core to v0.5.1 ([#579](https://github.com/tillknuesting/flagd/issues/579)) ([58eed62](https://github.com/tillknuesting/flagd/commit/58eed62f5021e5c7a01a171067b725bf3ff83965))
+* **deps:** update module github.com/open-feature/flagd/core to v0.5.2 ([#613](https://github.com/tillknuesting/flagd/issues/613)) ([218f435](https://github.com/tillknuesting/flagd/commit/218f435f0212fa24483b2af25e184e154e575eb1))
+* **deps:** update module github.com/open-feature/flagd/core to v0.5.3 ([#634](https://github.com/tillknuesting/flagd/issues/634)) ([1bc7e99](https://github.com/tillknuesting/flagd/commit/1bc7e99473bc0c7bcacfb40030562e556d3895d6))
+* **deps:** update module github.com/open-feature/flagd/core to v0.5.4 ([#693](https://github.com/tillknuesting/flagd/issues/693)) ([33705a6](https://github.com/tillknuesting/flagd/commit/33705a67300ec70760ba0baeb610f5a2e931205f))
+* **deps:** update module github.com/open-feature/flagd/core to v0.6.1 ([#745](https://github.com/tillknuesting/flagd/issues/745)) ([d290d8f](https://github.com/tillknuesting/flagd/commit/d290d8fda8aa84ed2db6454fdd26e60b028e3f7f))
+* **deps:** update module github.com/open-feature/flagd/core to v0.6.2 ([#779](https://github.com/tillknuesting/flagd/issues/779)) ([f34de59](https://github.com/tillknuesting/flagd/commit/f34de59fc8e636be043ce89758950d6ea3fe7376))
+* **deps:** update module github.com/open-feature/flagd/core to v0.6.3 ([#794](https://github.com/tillknuesting/flagd/issues/794)) ([9671964](https://github.com/tillknuesting/flagd/commit/96719649affeb1f8412e8b25f52d7292281d8230))
+* **deps:** update module github.com/open-feature/flagd/core to v0.6.4 ([#880](https://github.com/tillknuesting/flagd/issues/880)) ([ebb543d](https://github.com/tillknuesting/flagd/commit/ebb543d6eec18134e44ee7fe623fd2a336a1cf8d))
+* **deps:** update module github.com/open-feature/flagd/core to v0.6.5 ([#900](https://github.com/tillknuesting/flagd/issues/900)) ([c2ddcbf](https://github.com/tillknuesting/flagd/commit/c2ddcbfe49b8507fe463c11eb2b031bbc331792a))
+* **deps:** update module github.com/open-feature/flagd/core to v0.6.6 ([#916](https://github.com/tillknuesting/flagd/issues/916)) ([1f80e4d](https://github.com/tillknuesting/flagd/commit/1f80e4db9f8d1ba24884a71f2f8d552499ab5fe2))
+* **deps:** update module github.com/open-feature/flagd/core to v0.6.7 ([#966](https://github.com/tillknuesting/flagd/issues/966)) ([c038a3a](https://github.com/tillknuesting/flagd/commit/c038a3a3700eee82afa3e2cb2484614ec6ed566c))
+* **deps:** update module github.com/open-feature/go-sdk-contrib/providers/flagd to v0.1.12 ([#635](https://github.com/tillknuesting/flagd/issues/635)) ([fe88061](https://github.com/tillknuesting/flagd/commit/fe88061ed6e0f1b6119af4c96a02495c4ff8072b))
+* **deps:** update module github.com/open-feature/go-sdk-contrib/providers/flagd to v0.1.13 ([#697](https://github.com/tillknuesting/flagd/issues/697)) ([435448f](https://github.com/tillknuesting/flagd/commit/435448f449044eb5fff88c94e81883cc801c02c4))
+* **deps:** update module github.com/open-feature/go-sdk-contrib/providers/flagd to v0.1.17 ([#759](https://github.com/tillknuesting/flagd/issues/759)) ([a2a2c3c](https://github.com/tillknuesting/flagd/commit/a2a2c3c7effd1708136eaac5df00ae02276d5005))
+* **deps:** update module github.com/open-feature/go-sdk-contrib/tests/flagd to v1.2.2 ([#651](https://github.com/tillknuesting/flagd/issues/651)) ([9776973](https://github.com/tillknuesting/flagd/commit/9776973109a1bb45ab611ede6b2c4d2c01508455))
+* **deps:** update module github.com/open-feature/go-sdk-contrib/tests/flagd to v1.2.3 ([#749](https://github.com/tillknuesting/flagd/issues/749)) ([cd63e48](https://github.com/tillknuesting/flagd/commit/cd63e489d681c0998a9c38072410653473ce40fc))
+* **deps:** update module github.com/open-feature/go-sdk-contrib/tests/flagd to v1.3.1 ([#760](https://github.com/tillknuesting/flagd/issues/760)) ([30dda72](https://github.com/tillknuesting/flagd/commit/30dda72145c05de298140f880238ed37be73631a))
+* **deps:** update module github.com/spf13/cobra to v1.7.0 ([#587](https://github.com/tillknuesting/flagd/issues/587)) ([12b3477](https://github.com/tillknuesting/flagd/commit/12b34773a68f6ae7e7e605aebc9f7075eb819994))
+* **deps:** update module github.com/spf13/viper to v1.16.0 ([#679](https://github.com/tillknuesting/flagd/issues/679)) ([798a975](https://github.com/tillknuesting/flagd/commit/798a975bb1a47420e814b6dd439f1cece1a263e5))
+* **deps:** update module github.com/spf13/viper to v1.17.0 ([#956](https://github.com/tillknuesting/flagd/issues/956)) ([31d015d](https://github.com/tillknuesting/flagd/commit/31d015d329ae9c1da3ec13878078371bcbf43fbf))
+* **deps:** update module go.uber.org/zap to v1.25.0 ([#786](https://github.com/tillknuesting/flagd/issues/786)) ([40d0aa6](https://github.com/tillknuesting/flagd/commit/40d0aa66cf422db6811206d777b55396a96f330f))
+* **deps:** update module go.uber.org/zap to v1.26.0 ([#917](https://github.com/tillknuesting/flagd/issues/917)) ([e57e206](https://github.com/tillknuesting/flagd/commit/e57e206c937d5b11b81d46ee57b3e92cc454dd88))
+* **deps:** update opentelemetry-go monorepo ([#868](https://github.com/tillknuesting/flagd/issues/868)) ([d48317f](https://github.com/tillknuesting/flagd/commit/d48317f61d7db7ba0398dc9ab7cdd174a0b87555))
+* fall back to default port if env var cannot be parsed ([#591](https://github.com/tillknuesting/flagd/issues/591)) ([1fda104](https://github.com/tillknuesting/flagd/commit/1fda10473dba36149e13fa0cb8bb686d6861e568))
+
+
+### ✨ New Features
+
+* flagd OTEL collector ([#586](https://github.com/tillknuesting/flagd/issues/586)) ([494bec3](https://github.com/tillknuesting/flagd/commit/494bec33dcc1ddf0fa5cd0866f06265618408f5e))
+* grpc connection options to flagd configuration options ([#532](https://github.com/tillknuesting/flagd/issues/532)) ([aa74951](https://github.com/tillknuesting/flagd/commit/aa74951f43b662ff2df53e68d347fc10e6d23bb8))
+* Introduce connect traces ([#624](https://github.com/tillknuesting/flagd/issues/624)) ([28bac6a](https://github.com/tillknuesting/flagd/commit/28bac6a54aed79cb8d84a147ffea296c36f5bd51))
+* Introduce flagd kube proxy ([#495](https://github.com/tillknuesting/flagd/issues/495)) ([440864c](https://github.com/tillknuesting/flagd/commit/440864ce87174618321c9d5146221490d8f07b24))
+* otel traces for flag evaluation ([#598](https://github.com/tillknuesting/flagd/issues/598)) ([1757035](https://github.com/tillknuesting/flagd/commit/175703548f88469f25d749e320ee48030c9f9074))
+* Restructure for monorepo setup ([#486](https://github.com/tillknuesting/flagd/issues/486)) ([ed2993c](https://github.com/tillknuesting/flagd/commit/ed2993cd67b8a46db3beb6bb8a360e1aa20349da))
+* telemetry improvements ([#653](https://github.com/tillknuesting/flagd/issues/653)) ([ea02cba](https://github.com/tillknuesting/flagd/commit/ea02cba24bde982d55956fe54de1e8f27226bfc6))
+
+
+### 🧹 Chore
+
+* add new flagd-evaluator e2e suite ([#898](https://github.com/tillknuesting/flagd/issues/898)) ([37ab55d](https://github.com/tillknuesting/flagd/commit/37ab55d26a9902935e4f1ddfd1a6af28d3b1cfa4))
+* **deps:** update golang docker tag to v1.21 ([#822](https://github.com/tillknuesting/flagd/issues/822)) ([effe29d](https://github.com/tillknuesting/flagd/commit/effe29d50e33e6c06ef40d7f83f1b3f0df6bd1a2))
+* disable caching on integration tests ([#899](https://github.com/tillknuesting/flagd/issues/899)) ([16dd21e](https://github.com/tillknuesting/flagd/commit/16dd21e5834519af3a22ffeb989ab398f8c1ddd9))
+* docs rework ([#927](https://github.com/tillknuesting/flagd/issues/927)) ([27b3193](https://github.com/tillknuesting/flagd/commit/27b31938210c8930d9cbb31c1c76220d185b3949))
+* refactor configuration handling for startup ([#551](https://github.com/tillknuesting/flagd/issues/551)) ([8dfbde5](https://github.com/tillknuesting/flagd/commit/8dfbde5bbffd16fb66797a750d15f0226edf54a7))
+* release main ([#488](https://github.com/tillknuesting/flagd/issues/488)) ([873c7b3](https://github.com/tillknuesting/flagd/commit/873c7b37dbbfefa8f6448fb1dec06b2ce40fb02d))
+* release main ([#512](https://github.com/tillknuesting/flagd/issues/512)) ([85a0f0d](https://github.com/tillknuesting/flagd/commit/85a0f0d4d97d9388dcd291b2a96e8bbbdd53c2a7))
+* release main ([#547](https://github.com/tillknuesting/flagd/issues/547)) ([529e3e9](https://github.com/tillknuesting/flagd/commit/529e3e913f2c02adfd4f1bf69455a7f6ba1f8368))
+* release main ([#582](https://github.com/tillknuesting/flagd/issues/582)) ([f5ecc54](https://github.com/tillknuesting/flagd/commit/f5ecc5413753edab7c9f42e2a917ce10f81d63d2))
+* release main ([#607](https://github.com/tillknuesting/flagd/issues/607)) ([0fbd30f](https://github.com/tillknuesting/flagd/commit/0fbd30f4b3ba25d3e8adf457d2708cd0990b68d8))
+* release main ([#615](https://github.com/tillknuesting/flagd/issues/615)) ([ef5af58](https://github.com/tillknuesting/flagd/commit/ef5af58d1ee96bf866146e41b337f703fae62814))
+* release main ([#643](https://github.com/tillknuesting/flagd/issues/643)) ([f3fbe6d](https://github.com/tillknuesting/flagd/commit/f3fbe6dc6f260caf0dd25737b0caeb46deaf3e0a))
+* release main ([#694](https://github.com/tillknuesting/flagd/issues/694)) ([dbf7d2b](https://github.com/tillknuesting/flagd/commit/dbf7d2ba01cc7815f9646e25479b75875212666e))
+* release main ([#750](https://github.com/tillknuesting/flagd/issues/750)) ([e3e03b0](https://github.com/tillknuesting/flagd/commit/e3e03b0af2ed3690aae8755facfe2bc8444c4f50))
+* release main ([#774](https://github.com/tillknuesting/flagd/issues/774)) ([53028b5](https://github.com/tillknuesting/flagd/commit/53028b57f9d3045dd8e98dca5cb0d7c2813bb957))
+* release main ([#780](https://github.com/tillknuesting/flagd/issues/780)) ([bf74c5a](https://github.com/tillknuesting/flagd/commit/bf74c5a3fc1b52108c2b057b3680576a90f31453))
+* release main ([#796](https://github.com/tillknuesting/flagd/issues/796)) ([ee9116b](https://github.com/tillknuesting/flagd/commit/ee9116b34715cca0e6794dd01fe9c9eaea693529))
+* release main ([#883](https://github.com/tillknuesting/flagd/issues/883)) ([43f15ea](https://github.com/tillknuesting/flagd/commit/43f15ea92339cb953b0dcfc6ee883cd0e1a4d9b3))
+* release main ([#902](https://github.com/tillknuesting/flagd/issues/902)) ([90152ef](https://github.com/tillknuesting/flagd/commit/90152efa005b1e7881c496c71dd1b7adfa4eeb1a))
+* release main ([#919](https://github.com/tillknuesting/flagd/issues/919)) ([3dd6929](https://github.com/tillknuesting/flagd/commit/3dd69297c4dcf87f4780432600903fd3f76916fb))
+* update otel dependencies ([#649](https://github.com/tillknuesting/flagd/issues/649)) ([2114e41](https://github.com/tillknuesting/flagd/commit/2114e41c38951247866c0b408e5f933282902e70))
+* upgrade to go 1.20 ([#891](https://github.com/tillknuesting/flagd/issues/891)) ([977167f](https://github.com/tillknuesting/flagd/commit/977167fb8db330b62726097616dcd691267199ad))
+
+
+### 📚 Documentation
+
+* fixed typos and linting issues ([#957](https://github.com/tillknuesting/flagd/issues/957)) ([0bade57](https://github.com/tillknuesting/flagd/commit/0bade574005f8faf977de30b14ac89acbb276472))
+* improve markdown quality ([#498](https://github.com/tillknuesting/flagd/issues/498)) ([c77fa37](https://github.com/tillknuesting/flagd/commit/c77fa37979899f95ba51f69eeee21d96b6ab239c))
+
+
+### 🔄 Refactoring
+
+* **flagd:** update build.Dockerfile with buildkit caching ([#724](https://github.com/tillknuesting/flagd/issues/724)) ([3e9cc1a](https://github.com/tillknuesting/flagd/commit/3e9cc1a7d697b64690a8772fe0ec8e84e34ebf6c))
+* **flagd:** update profile.Dockerfile with buildkit caching ([#723](https://github.com/tillknuesting/flagd/issues/723)) ([3f263c6](https://github.com/tillknuesting/flagd/commit/3f263c65a6fe8f9e1f42d105dfbc89b9497cd080))
+* introduce additional linting rules + fix discrepancies ([#616](https://github.com/tillknuesting/flagd/issues/616)) ([aef0b90](https://github.com/tillknuesting/flagd/commit/aef0b9042dcbe5b3f9a7e97960b27366fe50adfe))
+* remove protobuf dependency from eval package ([#701](https://github.com/tillknuesting/flagd/issues/701)) ([34ffafd](https://github.com/tillknuesting/flagd/commit/34ffafd9a777da3f11bd3bfa81565e774cc63214))
+
 ## [0.6.7](https://github.com/open-feature/flagd/compare/flagd/v0.6.6...flagd/v0.6.7) (2023-10-12)
 
 
